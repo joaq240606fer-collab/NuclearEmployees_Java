@@ -1,6 +1,7 @@
 {
     "conventionalCommits.scopes": [
         "DOCUMENTACION",
-        "APP"
+        "APP",
+        "c"
     ]
 }

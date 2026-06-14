@@ -3,6 +3,8 @@
         "DOCUMENTACION",
         "APP",
         "c",
-        "Employee"
+        "Employee",
+        "Department",
+        "Shift"
     ]
 }

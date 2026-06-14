@@ -5,7 +5,7 @@ import edu.TeamRocket.model.Employee;
 import edu.TeamRocket.model.ExperienceLevel;
 import edu.TeamRocket.model.Shift;
 import edu.TeamRocket.service.EmployeeManagementService;
-import edu.TeamRocket.service.EmployeeManagementServiceImpl;
+import edu.TeamRocket.service.impl.EmployeeManagementServiceImpl;
 
 import java.util.List;
 import java.util.Map;

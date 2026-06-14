@@ -2,6 +2,7 @@
     "conventionalCommits.scopes": [
         "DOCUMENTACION",
         "APP",
-        "c"
+        "c",
+        "Employee"
     ]
 }

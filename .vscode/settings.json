@@ -5,6 +5,7 @@
         "c",
         "Employee",
         "Department",
-        "Shift"
+        "Shift",
+        "ExperienceLevel"
     ]
 }

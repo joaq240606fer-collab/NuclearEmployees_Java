@@ -1,6 +1,13 @@
 {
     "conventionalCommits.scopes": [
         "DOCUMENTACION",
-        "APP"
-    ]
+        "APP",
+        "c",
+        "Employee",
+        "Department",
+        "Shift",
+        "ExperienceLevel",
+        "EmployeeManagementService "
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }

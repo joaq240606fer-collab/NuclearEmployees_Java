@@ -8,5 +8,6 @@
         "Shift",
         "ExperienceLevel",
         "EmployeeManagementService "
-    ]
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }

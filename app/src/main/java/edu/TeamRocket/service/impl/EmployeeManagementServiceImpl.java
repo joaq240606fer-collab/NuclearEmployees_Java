@@ -15,14 +15,12 @@ public class EmployeeManagementServiceImpl implements EmployeeManagementService 
     private final List<Employee> crew = new ArrayList<>();
     
     @Override
+    public Employee createEmployee(String name, int id, Department department, Shift shift, ExperienceLevel experienceLevel) {
+        Employee newEmployee = new Employee(name, id, department, shift, experienceLevel);
 
-    public Employee createEmployee ( String Nombre, int Id , Department Department , Shift Shift , ExperienceLevel ExperienceLevel){
+        this.crew.add(newEmployee);
 
-    Employee newEmployee = createEmployee( Nombre,  Id ,  Department ,  Shift ,  ExperienceLevel);
-
-    this.crew.add(newEmployee);
-
-    return newEmployee;
+        return newEmployee;
     }
 
     @Override

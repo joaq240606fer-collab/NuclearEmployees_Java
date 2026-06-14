@@ -1,7 +1,7 @@
 package edu.TeamRocket.model;
 
 public enum Department {
-    REFACTOR_CONTROL,
+    REACTOR_CONTROL,
     SECURITY,
     MAINTENANCE,
     ADMINISTRATION

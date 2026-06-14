@@ -9,7 +9,20 @@ import java.util.Map;
 
 public interface EmployeeManagementService {
 
-    Employee ceraeteEmployee ( String Nombre, Integer Id , Department Department , Shift Shift , ExperienceLevel ExperienceLevel);
+    Employee createEmployee ( String Nombre, int Id , Department Department , Shift Shift , ExperienceLevel ExperienceLevel);
+
+    int crewSize();
+
+    List <Employee> listCrew();
+    
+    List <Employee> findEmployeesByDepartment(Department department);
+
+    void changeEmployeeExperienceLevel(Employee employee, ExperienceLevel newLevel);
+
+    Map<String , Long> getExperienceLevelStatistics(Employee empleado , ExperienceLevel newLevel);
+
+    boolean isDepartmentFullyCovered(Department department);
+    
     
 
 }

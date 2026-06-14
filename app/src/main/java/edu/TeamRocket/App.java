@@ -58,7 +58,7 @@ public class App {
         /* Historia de Usuario 4: cambio de experiencia */
         System.out.println("\n4. Cambio de experiencia...\n");
         employeeService.changeEmployeeExperienceLevel(carl, ExperienceLevel.EXPERTO);
-        System.out.println("Empleado " + carl.getNombre() + " cambió su nivel de experiencia a " + carl.getExperienceLevel().name());
+        System.out.println("Empleado " + carl.getName() + " cambió su nivel de experiencia a " + carl.getExperienceLevel().name());
         System.out.println(carl);
 
         /*

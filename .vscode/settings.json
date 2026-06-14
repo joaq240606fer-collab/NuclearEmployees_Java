@@ -6,6 +6,7 @@
         "Employee",
         "Department",
         "Shift",
-        "ExperienceLevel"
+        "ExperienceLevel",
+        "EmployeeManagementService "
     ]
 }
